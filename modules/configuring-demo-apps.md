@@ -1,4 +1,4 @@
-# Module 4: Configuring demo applications
+# Module 2: Configuring demo applications
 
 **Goal:** Deploy and configure demo applications.
 
@@ -51,4 +51,4 @@
     kubectl apply -f demo/50-alerts/unsanctioned.lateral.access.yaml
     ```
 
-[Next -> Module 5](../modules/enable-l7-logs.md)
+[Next -> Module 3](../modules/enable-l7-logs.md)
