@@ -54,6 +54,6 @@
      kubectl patch felixconfiguration default -p '{"spec":{"flowLogsCollectTcpStats":true}}'
     ```
 
-    In module 9 you can view these stats in the `Socket stats` tab on the right hand side when selecting a traffic flow edge.
+    In module 6 you can view these stats in the `Socket stats` tab on the right hand side when selecting a traffic flow edge.
 
 [Next -> Module 2](../modules/configuring-demo-apps.md)
