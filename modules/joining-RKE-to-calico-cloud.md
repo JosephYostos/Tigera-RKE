@@ -1,12 +1,12 @@
-# Module 3: Joining EKS cluster to Calico Cloud
+# Module 3: Joining RKE cluster to Calico Cloud
 
-**Goal:** Join EKS cluster to Calico Cloud management plane.
+**Goal:** Join RKE cluster to Calico Cloud management plane.
 
 >In order to complete this module, you must have [Calico Cloud trial account](https://www.tigera.io/tigera-products/calico-cloud/).
 
 ## Steps
 
-1. Join EKS cluster to Calico Cloud management plane.
+1. Join RKE cluster to Calico Cloud management plane.
 
     Use Calico Cloud install script provided in the welcome email for Calico Cloud trial account.
 
