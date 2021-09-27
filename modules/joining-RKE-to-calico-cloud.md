@@ -1,4 +1,4 @@
-# Module 3: Joining RKE cluster to Calico Cloud
+# Module 1: Joining RKE cluster to Calico Cloud
 
 **Goal:** Join RKE cluster to Calico Cloud management plane.
 
