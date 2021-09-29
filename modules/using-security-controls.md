@@ -1,4 +1,4 @@
-# Module 6: Using security controls
+# Module 3: Using security controls
 
 **Goal:** Leverage network policies to segment connections within Kubernetes cluster and prevent known bad actors from accessing the workloads.
 
