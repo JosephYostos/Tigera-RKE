@@ -165,4 +165,4 @@
 
     Navigate to `Kibana` -> `Dashboard` -> `Tigera Secure EE Tor-VPN Logs` dashboard to view the results.
 
-[Next -> Module 7](../modules/using-egress-access-controls.md)
+[Next -> Module 4](../modules/using-egress-access-controls.md)
