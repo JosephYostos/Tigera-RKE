@@ -1,4 +1,4 @@
-# Module 7: Using egress access controls
+# Module 4: Using egress access controls
 
 **Goal:** Configure egress access for specific workloads.
 
