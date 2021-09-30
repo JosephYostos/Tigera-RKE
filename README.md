@@ -22,20 +22,6 @@ In this workshop we are going to focus on these main use cases:
 
 [Calico User Group Slack](https://slack.projectcalico.org/) is a great resource to ask any questions about Calico. If you are not a part of this Slack group yet, we highly recommend [joining it](https://slack.projectcalico.org/) to participate in discussions or ask questions. 
 
-## Workshop prerequisites
-
->It is recommended to use your personal AWS account which would have full access to AWS resources. If using a corporate AWS account for the workshop, make sure to check with account administrator to provide you with sufficient permissions to create and manage EKS clusters and Load Balancer resources.
-
-- [Calico Cloud trial account](https://www.tigera.io/tigera-products/calico-cloud/)
-  - for instructor-led workshop use instructions in the email you receive to request a Calico Trial account
-  - for self-paced workshop follow the [link to register](https://www.tigera.io/tigera-products/calico-cloud/) for a Calico Trial account
-- AWS account and credentials to manage AWS resources
-- Terminal or Command Line console to work with AWS resources and EKS cluster
-  - most common environments are Cloud9, Mac OS, Linux, Windows WSL2
-- `Git`
-- `netcat`
-
->This workshop has been designed to use [AWS Cloud9](https://docs.aws.amazon.com/cloud9/latest/user-guide/tutorial.html) instance as a workspace environment. If you're familiar with the tools listed in prerequisites section, feel free to use a workspace environment you are most comfortable with.
 
 ## Modules
 
@@ -44,7 +30,7 @@ In this workshop we are going to focus on these main use cases:
 - [Module 2: Configuring demo applications](modules/configuring-demo-apps.md)
 - [Module 3: Using security controls](modules/using-security-controls.md)
 - [Module 4: Using egress access controls](modules/using-egress-access-controls.md)
-- [Module 5: Securing EKS hosts](modules/securing-heps.md)
+- [Module 5: Securing RKE hosts](modules/securing-heps.md)
 - [Module 6: Using observability tools](modules/using-observability-tools.md)
 - [Module 7: Using compliance reports](modules/using-compliance-reports.md)
 - [Module 8: Using alerts](modules/using-alerts.md)
