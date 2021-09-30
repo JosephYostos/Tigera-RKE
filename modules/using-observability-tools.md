@@ -4,7 +4,6 @@
 
 ## Calico observability tools
 
->If you are interested in enabling collection of application layer metrics for your workloads, refer to [Configure L7 logs](https://docs.tigera.io/visibility/elastic/l7/configure) documentation to enable application layer metrics collection.
 
 1. Dashboard
 
@@ -63,6 +62,6 @@
 
     ![kibana flows](../img/kibana-flow-logs.png)
 
-    Some of the default dashboards you get access to are **DNS Logs**, **Flow Logs**, **Audit Logs**, **Kuernetes API calls**, **L7 HTTP metrics**, **Tor-VPN Logs** and others.
+    Some of the default dashboards you get access to are **DNS Logs**, **Flow Logs**, **Audit Logs**, **Kuernetes API calls**, **Tor-VPN Logs** and others.
 
 [Next -> Module 7](../modules/using-compliance-reports.md)
