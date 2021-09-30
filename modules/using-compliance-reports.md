@@ -15,8 +15,6 @@
     - Network access
     - Policy audit
 
-    >When using EKS cluster, you need to [enable and configure audit log collection](https://docs.tigera.io/compliance/compliance-reports/compliance-managed-cloud#enable-audit-logs-in-eks) on AWS side in order to get the data captured for the `policy-audit` reports.
-
     A compliance report could be configured to include only specific endpoints leveraging endpoint labels and selectors. Each report has the `schedule` field that determines how often the report is going to be generated and sets the timeframe for the data to be included into the report.
 
     Compliance reports organize data in a CSV format which can be downloaded and moved to a long term data storage to meet compliance requirements.
