@@ -5,22 +5,21 @@ metadata:
 spec:
   tier: security
   order: 100
-  selector: has(eks.amazonaws.com/nodegroup)
-  # Allow all traffic to localhost.
+  selector: node-role.kubernetes.io/worker == "true"
+  namespaceSelector: ''
+  serviceAccountSelector: ''
   ingress:
-  - action: Allow
-    destination:
-      nets:
-      - 127.0.0.1/32
-  # Allow node port access only from specific CIDR.
-  - action: Deny
-    protocol: TCP
-    source:
-      notNets:
-      - ${CLOUD9_IP}
-    destination:
-      ports:
-      - 30080
+    - action: Allow
+      source: {}
+      destination:
+        nets:
+          - 127.0.0.1/32
+    - action: Deny
+      protocol: TCP
+      source: {}
+      destination:
+        ports:
+          - '30080'
   doNotTrack: false
   applyOnForward: true
   preDNAT: true
